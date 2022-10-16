@@ -17,7 +17,7 @@ def addTask():
     if task:
         with open("tasklist.txt", 'a') as taskfile:
             taskfile.write(f"\n{task}")
-            task_list.append(task
+            task_list.append(task)
             listbox.insert(END, task)
 
 
