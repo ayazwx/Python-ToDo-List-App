@@ -17,7 +17,7 @@ def addTask():
     if task:
         with open("tasklist.txt", 'a') as taskfile:
             taskfile.write(f"\n{task}")
-            task_list.append(task)
+            task_list.append(task
             listbox.insert(END, task)
 
 
@@ -119,7 +119,7 @@ openTaskFile()
 
 #github icon
 githubImage=PhotoImage(file="assets/githubblack.png")
-Label(root, image=githubImage, bg="#32405b". ).place(x=240, y=600)
+Label(root, image=githubImage, bg="#32405b").place(x=240, y=600)
 #Go_Github= PhotoImage(file="assets/github.png")
 #Button(root, image=Go_Github, bd=0, command=githublink).pack(side = RIGHT, pady=13, padx=100)
 
