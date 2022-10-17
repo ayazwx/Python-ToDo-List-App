@@ -1,4 +1,4 @@
-# python-to-do
+# ToDo List App with Python
+<h2>Preview: </h2>
 
-[![Watch the video]](assets/python-to-do-app.webm)
-
+![giphy](assets/python-to-do-app.gif)
